@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
 
     private int _countOfHealth = 10;
     private int _minCountOfHealth = 0;
+    
     private void Start()
     {
         HealthBar.Health = HealthBar.MaxHealth;
